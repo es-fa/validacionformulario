@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background: rgb(35, 18, 97);
+}
+input:valid{
+    background:white;
+}
+input:invalid{
+    background: rgb(240, 56, 93);
+}
+.tituloFormulario {
+    text-align: center;
+    padding: 5px;
+}
+body {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    background: #42a4c2;
+    padding: 50px 20px;
+    box-shadow: 0 0 6px 0;
+    border-radius: 5px;
+}
+#formularioAgenda {
+    width: 100%;
+    margin: auto;
+}
+label {
+    padding: 10px;
+    margin: 5px;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+    width: 93%;
+}
+button {
+    padding: 5px;
+    margin: 25px;
+    width: 300px;
+    background: limegreen;
+}

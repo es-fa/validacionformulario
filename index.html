@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form">
+        <label>Nombre de usuaruio</label>
+        <input type="text" minlength="4" maxlength="15" spellcheck="true"
+        placeholder="Escribre tu nombre" pattern="[A-Z|a-z|_|0-9]+" title="acepta letras y numeros"><br>
+        <label>Correo electronico</label>
+        <input type="email" minlength="8" required spellcheck="true"
+        placeholder="Escribre tu Correo"  title="aceptas letras y numeros"><br>
+        <label>Password</label>
+        <input type="password" minlength="6" maxlength="10" required spellcheck="true"
+        placeholder="Escribre tu nombre" pattern="[A-Z|a-z|0-9]+" title="acepta letras y numeros"><br>
+        <label>Nombre</label>
+        <input type="text" minlength="2" maxlength="20" spellcheck="true"
+        placeholder="Escribre tu nombre" pattern="[A-Z|a-z| |áéíóú|ÁÉÍÓÚ|Ñ|ñ]+" title="acepta solo letras"><br>
+        <label>Apellido Paterno</label>
+        <input type="text" minlength="1" maxlength="15" spellcheck="true"
+        placeholder="Escribre tu Apellido Paterno" pattern="[A-Z|a-z|áéíóú|ÁÉÍÓÚ|Ñ|ñ]+" title="acepta solo letras"><br>
+        <label>Apellido Materno</label>
+        <input type="text" minlength="1" maxlength="15" spellcheck="true"
+        placeholder="Escribre tu Apellido Materno" pattern="[A-Z|a-z|áéíóú|ÁÉÍÓÚ|Ñ|ñ]+" title="acepta solo letras"><br>
+        <label>Dirección</label>
+        <input type="text" minlength="1" maxlength="20" spellcheck="true"
+        placeholder="Escribre tu Dirección" pattern="[A-Z|a-z| |áéíóú|ÁÉÍÓÚ|Ñ|ñ|#|0-9]+" title="acepta letras, numeros y #"><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
